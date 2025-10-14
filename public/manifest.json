@@ -1,0 +1,17 @@
+{
+  "name": "ChatterinoWatch",
+  "short_name": "ChatterinoWatch",
+  "description": "Automatically sync Chatterino to show which Twitch streamer you're currently watching",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#a855f7",
+  "background_color": "#0a0514",
+  "display": "standalone",
+  "start_url": "./",
+  "scope": "./"
+}
