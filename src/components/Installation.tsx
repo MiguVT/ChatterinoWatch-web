@@ -1,6 +1,6 @@
+import { FaCheckCircle, FaEdge, FaExternalLinkAlt } from 'react-icons/fa'
+import { SiBrave, SiFirefox, SiGooglechrome, SiOpera, SiVivaldi } from 'react-icons/si'
 import { useBrowserDetection } from '../hooks/useBrowserDetection'
-import { FaCheckCircle, FaExternalLinkAlt, FaEdge } from 'react-icons/fa'
-import { SiGooglechrome, SiFirefox, SiBrave, SiOpera, SiVivaldi } from 'react-icons/si'
 
 // Map icon names to actual icon components
 const iconMap: Record<string, React.ReactNode> = {

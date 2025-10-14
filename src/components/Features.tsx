@@ -1,4 +1,4 @@
-import { FaBolt, FaSync, FaGlobe, FaShieldAlt, FaChartBar, FaClock } from 'react-icons/fa'
+import { FaBolt, FaChartBar, FaClock, FaGlobe, FaShieldAlt, FaSync } from 'react-icons/fa'
 
 export default function Features() {
   const features = [

@@ -1,5 +1,5 @@
-import { useBrowserDetection } from '../hooks/useBrowserDetection'
 import { FaCheck, FaChevronDown, FaExclamationTriangle } from 'react-icons/fa'
+import { useBrowserDetection } from '../hooks/useBrowserDetection'
 
 export default function Hero() {
   const { type, name, storeUrl, platformWarning } = useBrowserDetection()
