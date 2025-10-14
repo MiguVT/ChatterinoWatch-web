@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -58,33 +58,37 @@ export default function Navigation() {
           <div className="hidden md:flex items-center space-x-8">
             <a
               href="#features"
-              className="text-gray-300 hover:text-primary transition-colors duration-300 font-medium"
+              className="relative text-gray-300 hover:text-primary transition-colors duration-300 font-medium group"
               aria-label="Go to features section"
             >
-              Features
+              Features{' '}
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300" />
             </a>
             <a
               href="#installation"
-              className="text-gray-300 hover:text-primary transition-colors duration-300 font-medium"
+              className="relative text-gray-300 hover:text-primary transition-colors duration-300 font-medium group"
               aria-label="Go to installation section"
             >
-              Installation
+              Installation{' '}
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300" />
             </a>
             <a
               href="#setup"
-              className="text-gray-300 hover:text-primary transition-colors duration-300 font-medium"
+              className="relative text-gray-300 hover:text-primary transition-colors duration-300 font-medium group"
               aria-label="Go to setup section"
             >
-              Setup
+              Setup{' '}
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300" />
             </a>
             <a
               href="https://github.com/MiguVT/ChatterinoWatch"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-2 bg-gradient-to-r from-primary to-secondary rounded-full font-semibold hover:shadow-[0_0_20px_rgba(168,85,247,0.5)] transition-all duration-300 cursor-pointer"
+              className="group relative px-6 py-2 bg-gradient-to-r from-primary to-secondary rounded-full font-semibold hover:shadow-[0_0_20px_rgba(168,85,247,0.5)] transition-all duration-300 cursor-pointer overflow-hidden"
               aria-label="Visit GitHub repository (opens in new tab)"
             >
-              GitHub
+              <span className="relative z-10">GitHub</span>{' '}
+              <span className="absolute inset-0 bg-gradient-to-r from-secondary to-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </a>
           </div>
         </div>
