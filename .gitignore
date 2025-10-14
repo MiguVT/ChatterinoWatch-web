@@ -6,6 +6,10 @@ out
 dist
 *.tgz
 
+# Netlify
+.netlify
+404.html
+
 # code coverage
 coverage
 *.lcov

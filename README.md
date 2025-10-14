@@ -2,6 +2,10 @@
 
 Modern, responsive single-page website for ChatterinoWatch browser extension.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR-SITE-ID/deploy-status)](https://app.netlify.com/sites/YOUR-SITE-NAME/deploys)
+
+🌐 **Live Site**: [chatterinowatch.miguvt.com](https://chatterinowatch.miguvt.com)
+
 ## Stack
 
 - **Bun** - Fast JavaScript runtime and bundler
@@ -25,22 +29,6 @@ bun run build
 # Preview production build
 bun run preview
 ```
-
-## Deployment
-
-### GitHub Pages
-
-1. Build the site:
-
-   ```bash
-   bun run build
-   ```
-
-2. Deploy the `dist` folder to GitHub Pages
-
-### Static Hosting (Nginx, Vercel, Netlify, etc.)
-
-Simply upload the contents of the `dist` folder after running `bun run build`.
 
 ## Features
 
