@@ -108,8 +108,8 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 className={`group relative px-8 sm:px-10 py-4 sm:py-5 rounded-2xl font-bold text-base sm:text-lg transition-all duration-300 cursor-pointer w-full sm:w-auto max-w-xs ${
                   browser.detected
-                    ? 'bg-gradient-to-r from-primary to-secondary hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-105'
-                    : 'glass-effect hover:shadow-[0_0_20px_rgba(168,85,247,0.3)] hover:scale-102'
+                    ? 'bg-gradient-to-r from-primary to-secondary hover:shadow-[0_0_40px_rgba(192,132,252,0.6)] hover:scale-105'
+                    : 'glass-effect hover:shadow-[0_0_20px_rgba(192,132,252,0.3)] hover:scale-102'
                 }`}
                 aria-label={`Install for ${browser.name} ${
                   browser.detected ? '(detected browser)' : ''
@@ -135,7 +135,7 @@ export default function Hero() {
           <div className="mt-16 sm:mt-20 animate-[bounce-subtle]">
             <a
               href="#features"
-              className="inline-flex flex-col items-center text-gray-400 hover:text-primary transition-colors duration-300 group"
+              className="inline-flex flex-col items-center text-white/80 hover:text-primary transition-colors duration-300 group"
               aria-label="Scroll to features"
             >
               <span className="text-sm mb-2 font-medium">Discover More</span>

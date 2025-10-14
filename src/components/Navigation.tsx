@@ -28,7 +28,7 @@ export default function Navigation() {
       style={{
         backgroundColor: isScrolled ? 'rgba(10, 5, 20, 0.8)' : 'transparent',
         backdropFilter: isScrolled ? 'blur(12px)' : 'none',
-        borderBottom: isScrolled ? '1px solid rgba(168, 85, 247, 0.2)' : '1px solid transparent',
+        borderBottom: isScrolled ? '1px solid rgba(192, 132, 252, 0.2)' : '1px solid transparent',
         boxShadow: isScrolled ? '0 4px 6px -1px rgba(0, 0, 0, 0.3)' : 'none',
       }}
       role="navigation"
@@ -58,7 +58,7 @@ export default function Navigation() {
           <div className="hidden md:flex items-center space-x-8">
             <a
               href="#features"
-              className="relative text-gray-300 hover:text-primary transition-colors duration-300 font-medium group"
+              className="relative text-white/90 hover:text-primary transition-colors duration-300 font-medium group"
               aria-label="Go to features section"
             >
               Features{' '}
@@ -66,7 +66,7 @@ export default function Navigation() {
             </a>
             <a
               href="#installation"
-              className="relative text-gray-300 hover:text-primary transition-colors duration-300 font-medium group"
+              className="relative text-white/90 hover:text-primary transition-colors duration-300 font-medium group"
               aria-label="Go to installation section"
             >
               Installation{' '}
@@ -74,7 +74,7 @@ export default function Navigation() {
             </a>
             <a
               href="#setup"
-              className="relative text-gray-300 hover:text-primary transition-colors duration-300 font-medium group"
+              className="relative text-white/90 hover:text-primary transition-colors duration-300 font-medium group"
               aria-label="Go to setup section"
             >
               Setup{' '}
@@ -84,7 +84,7 @@ export default function Navigation() {
               href="https://github.com/MiguVT/ChatterinoWatch"
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative px-6 py-2 bg-gradient-to-r from-primary to-secondary rounded-full font-semibold hover:shadow-[0_0_20px_rgba(168,85,247,0.5)] transition-all duration-300 cursor-pointer overflow-hidden"
+              className="group relative px-6 py-2 bg-gradient-to-r from-primary to-secondary rounded-full font-semibold hover:shadow-[0_0_20px_rgba(192,132,252,0.5)] transition-all duration-300 cursor-pointer overflow-hidden"
               aria-label="Visit GitHub repository (opens in new tab)"
             >
               <span className="relative z-10">GitHub</span>{' '}

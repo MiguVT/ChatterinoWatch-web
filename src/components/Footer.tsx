@@ -25,7 +25,7 @@ export default function Footer() {
                 />
                 <span className="text-xl font-bold gradient-text">ChatterinoWatch</span>
               </button>
-              <p className="text-gray-400 text-sm leading-relaxed max-w-[240px]">
+              <p className="text-gray-300 text-sm leading-relaxed max-w-[240px]">
                 Seamlessly sync Chatterino with your active Twitch stream. Privacy-first,
                 lightning-fast.
               </p>
@@ -40,7 +40,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#features"
-                    className="text-gray-400/90 text-sm hover:text-primary transition-all duration-200 inline-flex items-center gap-2 group"
+                    className="text-gray-300 text-sm hover:text-primary transition-all duration-200 inline-flex items-center gap-2 group"
                   >
                     <span className="w-0 h-px bg-primary/70 transition-all duration-200 group-hover:w-4" />
                     <span>Features</span>
@@ -49,7 +49,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#installation"
-                    className="text-gray-400/90 text-sm hover:text-primary transition-all duration-200 inline-flex items-center gap-2 group"
+                    className="text-gray-300 text-sm hover:text-primary transition-all duration-200 inline-flex items-center gap-2 group"
                   >
                     <span className="w-0 h-px bg-primary/70 transition-all duration-200 group-hover:w-4" />
                     <span>Installation</span>
@@ -58,7 +58,7 @@ export default function Footer() {
                 <li>
                   <a
                     href="#setup"
-                    className="text-gray-400/90 text-sm hover:text-primary transition-all duration-200 inline-flex items-center gap-2 group"
+                    className="text-gray-300 text-sm hover:text-primary transition-all duration-200 inline-flex items-center gap-2 group"
                   >
                     <span className="w-0 h-px bg-primary/70 transition-all duration-200 group-hover:w-4" />
                     <span>Setup Guide</span>
@@ -78,7 +78,7 @@ export default function Footer() {
                     href="https://github.com/MiguVT/ChatterinoWatch"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400/90 text-sm hover:text-primary transition-all duration-200 inline-flex items-center gap-2 group"
+                    className="text-gray-300 text-sm hover:text-primary transition-all duration-200 inline-flex items-center gap-2 group"
                   >
                     <span className="w-0 h-px bg-primary/70 transition-all duration-200 group-hover:w-4" />
                     <span>GitHub</span>
@@ -89,7 +89,7 @@ export default function Footer() {
                     href="https://github.com/MiguVT/ChatterinoWatch/issues"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400/90 text-sm hover:text-primary transition-all duration-200 inline-flex items-center gap-2 group"
+                    className="text-gray-300 text-sm hover:text-primary transition-all duration-200 inline-flex items-center gap-2 group"
                   >
                     <span className="w-0 h-px bg-primary/70 transition-all duration-200 group-hover:w-4" />
                     <span>Issues</span>
@@ -100,7 +100,7 @@ export default function Footer() {
                     href="https://github.com/MiguVT/ChatterinoWatch/blob/main/LICENSE"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400/90 text-sm hover:text-primary transition-all duration-200 inline-flex items-center gap-2 group"
+                    className="text-gray-300 text-sm hover:text-primary transition-all duration-200 inline-flex items-center gap-2 group"
                   >
                     <span className="w-0 h-px bg-primary/70 transition-all duration-200 group-hover:w-4" />
                     <span>License</span>
@@ -120,17 +120,17 @@ export default function Footer() {
                     href="https://github.com/MiguVT"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400/90 text-sm hover:text-primary transition-all duration-200 inline-flex items-center gap-2 group"
+                    className="text-gray-300 text-sm hover:text-primary transition-all duration-200 inline-flex items-center gap-2 group"
                   >
                     <span className="w-0 h-px bg-primary/70 transition-all duration-200 group-hover:w-4" />
                     <span>@MiguVT</span>
                   </a>
                 </li>
                 <li>
-                  <span className="text-gray-500/80 text-xs pl-2">Open Source</span>
+                  <span className="text-gray-300 text-xs pl-2">Open Source</span>
                 </li>
                 <li>
-                  <span className="text-gray-500/80 text-xs pl-2">MIT Licensed</span>
+                  <span className="text-gray-300 text-xs pl-2">MIT Licensed</span>
                 </li>
               </ul>
             </div>
@@ -142,19 +142,19 @@ export default function Footer() {
               <div className="w-full border-t border-primary/15" />
             </div>
             <div className="relative flex justify-center">
-              <span className="px-4 text-xs text-primary/40">✦</span>
+              <span className="px-4 text-xs text-primary/60">✦</span>
             </div>
           </div>
 
           {/* Bottom Bar */}
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-500/90">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-300">
             <p className="flex items-center gap-2">
               <span>© {currentYear}</span>
-              <span className="text-primary/30">•</span>
+              <span className="text-primary/50">•</span>
               <span>ChatterinoWatch</span>
             </p>
             <p className="flex items-center gap-2">
-              <span className="text-gray-500/70">Crafted by</span>
+              <span className="text-gray-300">Crafted by</span>
               <a
                 href="https://github.com/MiguVT"
                 target="_blank"

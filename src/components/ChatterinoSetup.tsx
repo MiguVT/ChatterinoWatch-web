@@ -121,7 +121,7 @@ export default function ChatterinoSetup() {
                     </button>
                   </div>
 
-                  <p className="text-xs text-gray-500 mt-3">
+                  <p className="text-xs text-gray-300 mt-3">
                     {isFirefox
                       ? 'For Firefox, LibreWolf or other Firefox-based browsers'
                       : 'For Chrome, Edge, Brave, Opera, Vivaldi or other Chromium-based browsers'}

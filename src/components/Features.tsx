@@ -81,7 +81,7 @@ export default function Features() {
               <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-white group-hover:text-primary transition-colors duration-300">
                 {feature.title}
               </h3>
-              <p className="text-sm sm:text-base text-gray-400 leading-relaxed">
+              <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
                 {feature.description}
               </p>
             </div>

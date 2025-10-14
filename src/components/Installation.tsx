@@ -65,7 +65,7 @@ export default function Installation() {
                 key={browser.type}
                 className={`relative glass-effect rounded-2xl p-6 sm:p-8 hover:scale-105 transition-all duration-300 animate-[slide-up] ${
                   browser.detected
-                    ? 'ring-2 ring-primary shadow-[0_0_30px_rgba(168,85,247,0.3)]'
+                    ? 'ring-2 ring-primary shadow-[0_0_30px_rgba(192,132,252,0.3)]'
                     : ''
                 }`}
                 style={{ animationDelay: `${index * 0.2}s` }}
@@ -83,7 +83,7 @@ export default function Installation() {
                   </div>
                   <div>
                     <h3 className="text-xl sm:text-2xl font-bold text-white">{browser.name}</h3>
-                    <p className="text-sm text-gray-400">{browser.storeName}</p>
+                    <p className="text-sm text-gray-300">{browser.storeName}</p>
                   </div>
                 </div>
 
@@ -120,7 +120,7 @@ export default function Installation() {
                   rel="noopener noreferrer"
                   className={`group flex items-center justify-center gap-2 w-full py-3 sm:py-4 rounded-xl font-semibold transition-all duration-300 cursor-pointer ${
                     browser.detected
-                      ? 'bg-gradient-to-r from-primary to-secondary hover:shadow-[0_0_20px_rgba(168,85,247,0.5)]'
+                      ? 'bg-gradient-to-r from-primary to-secondary hover:shadow-[0_0_20px_rgba(192,132,252,0.5)]'
                       : 'bg-white/10 hover:bg-white/20'
                   }`}
                   aria-label={`Install on ${browser.name}`}

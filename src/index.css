@@ -1,10 +1,10 @@
 @import 'tailwindcss';
 
 @theme {
-  /* Colors */
-  --color-primary: #a855f7;
-  --color-secondary: #ec4899;
-  --color-accent: #f97316;
+  /* Colors - Enhanced contrast for accessibility */
+  --color-primary: #c084fc; /* Lighter purple for better contrast */
+  --color-secondary: #f472b6; /* Lighter pink for better contrast */
+  --color-accent: #f97316; /* Orange with good contrast on white text */
   --color-dark: #0a0514;
   --color-darker: #050208;
 
@@ -53,10 +53,10 @@
 @keyframes glow {
   0%,
   100% {
-    box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+    box-shadow: 0 0 20px rgba(192, 132, 252, 0.5);
   }
   50% {
-    box-shadow: 0 0 40px rgba(168, 85, 247, 0.8);
+    box-shadow: 0 0 40px rgba(192, 132, 252, 0.8);
   }
 }
 
@@ -105,11 +105,11 @@
 .glass-effect {
   background: rgba(10, 5, 20, 0.7);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(168, 85, 247, 0.2);
+  border: 1px solid rgba(192, 132, 252, 0.2);
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);
+  background: linear-gradient(135deg, #c084fc 0%, #f472b6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -118,7 +118,7 @@
 
 .gradient-border {
   position: relative;
-  background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(236, 72, 153, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(192, 132, 252, 0.1) 0%, rgba(244, 114, 182, 0.1) 100%);
   border: 1px solid transparent;
 }
 
@@ -128,7 +128,7 @@
   inset: 0;
   border-radius: inherit;
   padding: 1px;
-  background: linear-gradient(135deg, #a855f7, #ec4899);
+  background: linear-gradient(135deg, #c084fc, #f472b6);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -137,12 +137,12 @@
 
 /* Custom selection color */
 ::selection {
-  background-color: rgba(168, 85, 247, 0.4);
+  background-color: rgba(192, 132, 252, 0.4);
   color: white;
 }
 
 ::-moz-selection {
-  background-color: rgba(168, 85, 247, 0.4);
+  background-color: rgba(192, 132, 252, 0.4);
   color: white;
 }
 
@@ -161,12 +161,12 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, #a855f7, #ec4899);
+  background: linear-gradient(135deg, #c084fc, #f472b6);
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(135deg, #9333ea, #db2777);
+  background: linear-gradient(135deg, #a855f7, #ec4899);
 }
 
 /* Enhanced keyboard navigation focus styles */
