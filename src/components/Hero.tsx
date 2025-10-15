@@ -9,13 +9,18 @@ export default function Hero() {
       type: 'chrome' as const,
       name: name && type === 'chrome' ? name : 'Chrome',
       storeUrl:
-        storeUrl || 'https://chromewebstore.google.com/detail/pnpdojeoploiomepdhikamokjmapkimh',
+        type === 'chrome' && storeUrl
+          ? storeUrl
+          : 'https://chromewebstore.google.com/detail/pnpdojeoploiomepdhikamokjmapkimh',
       detected: type === 'chrome',
     },
     {
       type: 'firefox' as const,
       name: name && type === 'firefox' ? name : 'Firefox',
-      storeUrl: storeUrl || 'https://addons.mozilla.org/en-US/firefox/addon/chatterinowatch/',
+      storeUrl:
+        type === 'firefox' && storeUrl
+          ? storeUrl
+          : 'https://addons.mozilla.org/en-US/firefox/addon/chatterinowatch/',
       detected: type === 'firefox',
     },
   ]

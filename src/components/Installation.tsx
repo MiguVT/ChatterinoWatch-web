@@ -24,7 +24,9 @@ export default function Installation() {
       name: name && type === 'chrome' ? name : 'Chrome',
       icon: type === 'chrome' ? detectedIcon : <SiGooglechrome className="w-8 h-8 text-white" />,
       storeUrl:
-        storeUrl || 'https://chromewebstore.google.com/detail/pnpdojeoploiomepdhikamokjmapkimh',
+        type === 'chrome' && storeUrl
+          ? storeUrl
+          : 'https://chromewebstore.google.com/detail/pnpdojeoploiomepdhikamokjmapkimh',
       storeName: 'Chrome Web Store',
       detected: type === 'chrome',
     },
@@ -32,7 +34,10 @@ export default function Installation() {
       type: 'firefox' as const,
       name: name && type === 'firefox' ? name : 'Firefox',
       icon: type === 'firefox' ? detectedIcon : <SiFirefox className="w-8 h-8 text-white" />,
-      storeUrl: storeUrl || 'https://addons.mozilla.org/en-US/firefox/addon/chatterinowatch/',
+      storeUrl:
+        type === 'firefox' && storeUrl
+          ? storeUrl
+          : 'https://addons.mozilla.org/en-US/firefox/addon/chatterinowatch/',
       storeName: 'Firefox Add-ons',
       detected: type === 'firefox',
     },
