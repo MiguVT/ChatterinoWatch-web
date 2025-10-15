@@ -2,7 +2,7 @@
 
 Modern, responsive single-page website for ChatterinoWatch browser extension.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR-SITE-ID/deploy-status)](https://app.netlify.com/sites/YOUR-SITE-NAME/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bb3e16f6-ca9e-4448-b8b7-e0a5c68937f5/deploy-status)](https://app.netlify.com/sites/YOUR-SITE-NAME/deploys)
 
 🌐 **Live Site**: [chatterinowatch.miguvt.com](https://chatterinowatch.miguvt.com)
 
