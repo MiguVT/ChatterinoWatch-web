@@ -42,7 +42,7 @@ bun run preview
 - 🔍 Full SEO optimization (Open Graph, Twitter Cards)
 - 🤖 robots.txt and sitemap.xml included
 - 📦 PWA-ready with manifest.json
-- 🚀 Zero-bloat, production-ready code
+- 🚀 Zero-bloat
 
 ## Project Structure
 
